@@ -1,0 +1,124 @@
+###############################################################################
+# Python
+###############################################################################
+
+__pycache__/
+*.py[cod]
+*$py.class
+
+.venv/
+venv/
+env/
+ENV/
+
+pip-wheel-metadata/
+build/
+dist/
+*.egg-info/
+.eggs/
+
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+.coverage.*
+htmlcov/
+
+.ipynb_checkpoints/
+
+###############################################################################
+# Editors / OS
+###############################################################################
+
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+###############################################################################
+# Logs
+###############################################################################
+
+*.log
+*.out
+*.err
+nohup.out
+
+###############################################################################
+# Cadence / Genus / Synthesis outputs
+###############################################################################
+
+# Main generated report directories
+reports/
+results/
+
+# Genus generated databases / snapshots / temporary dirs
+genus_temp*/
+*.cmd*
+*.key
+*.logv
+*.jou
+*.mr
+*.st
+*.db
+*.ddb
+*.dat
+*.rpt.old
+
+# Genus / Cadence formal verification outputs
+fv/
+fv_*/
+*.fv.json
+*.do
+
+# Generated synthesis outputs
+*_netlist.v
+*.sdc
+*.sdf
+*.spef
+*.spf
+*.vcd
+*.saif
+*.fsdb
+*.shm/
+
+# Cadence simulation / Xcelium
+xcelium.d/
+xrun.history
+xrun.key
+xrun.log
+INCA_libs/
+waves.shm/
+*.diag
+
+# Cadence miscellaneous
+.cadence/
+cds.lib
+hdl.var
+
+###############################################################################
+# Physical implementation / Innovus-like outputs, por si lo usas después
+###############################################################################
+
+innovus*/
+encounter*/
+*.enc
+*.def
+*.lef
+*.gds
+*.gdsii
+*.oas
+*.spef.gz
+*.sdf.gz
+*.lib.gz
+
+###############################################################################
+# Local environment files
+###############################################################################
+
+workspace.csh
+workspace.env
+.env
+*.local
